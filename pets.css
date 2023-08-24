@@ -1,0 +1,191 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    }
+    
+    header {
+
+   background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-VjMYPD04RiRXsI0UOfqj8w5_dHVaOpr_S3VYEMxam16YB1TFNE_c5h-iExW92k07dYw&usqp=CAU);
+    padding: 20px;
+   background-size: cover;
+    }
+
+    
+    nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0}
+    
+    nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+    }
+    
+    nav ul li a {
+    text-decoration: none;
+    color: #333;
+    }
+    
+    .hero-section {
+        color: black;
+    
+    padding: 75px;
+    text-align: center;
+background-image: url(https://media.istockphoto.com/id/1263678507/photo/white-persian-cat.jpg?s=612x612&w=0&k=20&c=y0ys5O_TG0xYevC_-7j0jrwowzBriA8nUf5H68N69DY=);
+ background-position: center;
+  background-size: cover;
+   min-height: calc(164px);
+  
+  }
+    
+    .features-section {
+    padding: 50px;
+    text-align: center;
+    background-color: #fff;
+    background-image: url(https://welovedoodles.com/wp-content/uploads/2021/12/Golden-Retriever-300x169.jpeg);
+  background-size: cover;
+   min-height: calc(164px);
+    }
+    
+    -section .feature {
+    display: inline-block;
+    width: 25%;
+    padding: 20px;
+    margin: 10px;
+    background-color: #f9f9f9;
+    }
+    
+    .contests-section {
+    padding: 50px;
+    text-align: center;
+    background-color: #dcd784;
+    }
+    
+    .contests-section .contest {
+    display: inline-block;
+    width: 30%;
+    padding: 20px;
+     margin : 10px;
+    background-color: #42b2e7;
+    
+    }
+    
+    footer {
+    background-color: #333;
+    padding: 20px;
+    color: #fff;
+    text-align:left;
+    }
+    
+#landing {
+  background: #fff;
+}
+
+#landing-text {
+  display: flex;
+  flex: 0 1 40vw;
+  height: 50vh;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIHmZZpFM-NY4o-J9X7yAwOlByb7AKs6xP8BppZioRFw&s);
+  background-size: cover;
+}
+
+#landing-text h2 {
+  color: #888;
+}
+
+#landing-image {
+  background: url(https://images.unsplash.com/photo-1611003228941-98852ba62227?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YmFieSUyMGRvZ3xlbnwwfHwwfHx8MA%3D%3D&w=1000&q=80);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 50vh;
+  flex: 0 1 60vw;
+  margin: 0;
+}
+
+.btn {
+  padding: 0.5rem 2rem;
+  border: 1px solid #ccc;
+  display: inline-block;
+  background-color: hotpink;
+  margin: 2rem 0 0;
+  border-radius: 50px;
+  text-decoration: none;
+  color: #333;
+  transition: background 500ms ease;
+}
+
+.btn:hover {
+  background: #f4f4f4;
+}
+
+#header {
+  padding: 1.5rem;
+  text-align: center;
+  background: #333;
+  color: #fff;
+}
+
+#header h2 {
+  border-left: 1px dotted #fff;
+  border-right: 1px dotted #fff;
+  display: inline-block;
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+
+.caption {
+  padding: 0.8rem;
+  text-align: center;
+}
+
+
+
+footer h3 {
+  font-size: 3rem;
+  margin-bottom: 0;
+}
+
+footer p a {
+  text-decoration: none;
+  color: red;
+}
+
+@media(min-width: 31.25rem) {
+  #landing {
+      display: flex;
+      height: 100%;
+  }
+
+  #landing-text {
+      height: 100vh;
+  }
+
+  #landing-image {
+      height: 100vh;
+  }
+}
+
+@media(min-width: 43.75rem) {
+  .btn {
+      padding: 1rem 3rem;
+  }
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+#images{
+background-image: url(https://plus.unsplash.com/premium_photo-1664274132563-58233267f8e8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8cGhvdG9zaG9wJTIwb3ZlcmxheXxlbnwwfHwwfHx8MA%3D%3D&w=1000&q=80);
+
+
+}
