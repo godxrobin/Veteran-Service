@@ -3,6 +3,9 @@
 <head>
 <title>Little Paws - Veteran Care Website</title>
 <link rel="stylesheet" type="text/css" href="pets.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" 
+  integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
 </head>
 <body>
 <header>
@@ -12,8 +15,8 @@
 <li><a href="#">Home</a></li>
 <li><a href="#">About</a></li>
 <li><a href="#">Services</a></li>
+<li><a href="#">Training</a></li>
 <li><a href="#">Donate</a></li>
-<li><a href="#">Volunteer</a></li>
 <li><a href="#">Adoption</a></li>
 <li><a href="#">Contests</a></li>
 </ul>
@@ -21,26 +24,26 @@
 </header>
 
 <section class="hero-section">
-<h2>Welcome to Little Paws!</h2>
-<p style="font-size: mediums;">We provide care and support for animals owned by veterans.</p>
+<h2 class="h3g">Welcome to Little Paws!</h2>
+<p style="font-size: 22px; font-weight: bold;">We provide care and support for animals owned by veterans.</p>
 </section>
 
 <section class="features-section">
 <div class="feature">
-<h3>Mobile Clinic</h3>
-<p>Our mobile clinic offers on-site veterinary care for your pets.</p>
+<a href="&" class="h3g">Clinic</a>
+<p style="font-size: 22px; font-weight: bold;">Our mobile clinic offers on-site veterinary care for your pets.</p>
 </div>
 <div class="feature">
-<h3>Veteran Training</h3>
-<p>We provide training programs to help veterans care for their pets.</p>
+<a href="&" class="h3g">Pet Training</a>
+<p style="font-size: 22px; font-weight: bold;">We provide training programs to help veterans care for their pets.</p>
 </div>
 <div class="feature">
-<h3>Donate and Volunteer</h3>
-<p>Support our cause by donating or volunteering at our organization.</p>
+<a href="&" class="h3g">Donate and Volunteer</a>
+<p style="font-size: 22px; font-weight: bold;">Support our cause by donating or volunteering at our organization.</p>
 </div>
 <div class="feature">
-<h3>Pet Adoption</h3>
-<p>Find your perfect companion by adopting a pet from our shelter.</p>
+<a href="&" class="h3g">Pet Adoption</a>
+<p style="font-size: 22px; font-weight: bold;">Find your perfect companion by adopting a pet from our shelter.</p>
 </div>
 </section>
 
@@ -51,8 +54,8 @@
             <div id="landing-text-inner">
                 <h1>The Pet show</h1>
                 <h2>Beautiful Images</h2>
-                <a href="#images" class="btn" id="view-work">
-                    View Work
+                <a href="#images"  class="btn btn-primary btn-lg px-4 me-md-2" id="view-work">
+                    View Images
                 </a>
             </div>
         </div>
@@ -60,40 +63,24 @@
     </div>
     <div id="images">
         <div id="header">
-            <h2>My Work</h2>
+            <h2>Images</h2>
         </div>
 
-        <img src="https://source.unsplash.com/500x500/?cat"  class="center">
-        <div class="caption">
-            <h3>Rahul Saha</h3>
-            <p>Phd , Boston University</p>
+      
+        <div class="scroll-container">
+            <img src="https://source.unsplash.com/250x200/?cat" >
+            <img src="https://source.unsplash.com/250x200/?rabbit" >
+            <img src="https://source.unsplash.com/250x200/?turtle" >
+            <img src="https://source.unsplash.com/250x200/?dog" >
+            <img src="https://source.unsplash.com/250x200/?parrot">
         </div>
-        <img src="https://source.unsplash.com/500x500/?rabbit"  class="center">
-        <div class="caption">
-            <h3>Deep sengupta </h3>
-            <p>Animal lover</p>
-        </div>
-        <img src="https://source.unsplash.com/500x500/?turtle"  class="center">
-        <div class="caption">
-            <h3>Rahul Pal</h3>
-            <p>Bird watcher</p>
-        </div>
-        <img src="https://source.unsplash.com/500x500/?dog"  class="center">
-        <div class="caption">
-            <h3>Mahesh dalle</h3>
-            <p>Pussy Lover</p>
-        </div>
-        <img src="https://source.unsplash.com/500x500/?parrot"  class="center" >
-    
-        <div class="caption">
-            <h3>Sunny Leon</h3>
-            <p>Actor!</p>
-        </div>
+
+
     </div>
 
 
 <section class="contests-section">
-<h2>Contests</h2>
+<a href="#" class="h3g" style="font-weight: bolder;">Contests</a>
 <p>Join our fun contests and win exciting prizes!</p>
 <div class="contest">
 <h3>Smile with Your Pet</h3>
@@ -104,6 +91,27 @@
 <p>Join our dog walking event at the local park. Contact us for more details.</p>
 </div>
 </section>
+
+<div class="container-fluid">
+    <div class="row">
+      <div class="col-lg-3 col-sm-12" style="margin: auto;">
+        <img src="images/techcrunch.png" alt="tech" height="30" class="jj">
+      </div>
+
+      <div class="col-lg-3 col-sm-12">
+        <img src="images/mashable.png" alt="tech" height="30" class="jj" >
+      </div>
+
+      <div class="col-lg-3 col-sm-12">
+        <img src="images/bizinsider.png" alt="tech" height="30" class="jj">
+      </div>
+
+      <div class="col-lg-3 col-sm-12">
+        <img src="images/tnw.png" alt="tech" height="40" class="jj">
+      </div>
+
+    </div>
+   </div>
 
 <footer>
 <p>&copy; 2021 Little Paws. All rights reserved.</p>
