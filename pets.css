@@ -2,6 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    
     }
     
     header {
@@ -9,8 +10,11 @@ body {
    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-VjMYPD04RiRXsI0UOfqj8w5_dHVaOpr_S3VYEMxam16YB1TFNE_c5h-iExW92k07dYw&usqp=CAU);
     padding: 20px;
    background-size: cover;
+   
     }
-
+p{
+  font-size: larger;
+}
     
     nav ul {
     list-style-type: none;
@@ -29,10 +33,10 @@ body {
     
     .hero-section {
         color: black;
-    
+        -webkit-text-stroke: 0.2px white;
     padding: 75px;
     text-align: center;
-background-image: url(https://media.istockphoto.com/id/1263678507/photo/white-persian-cat.jpg?s=612x612&w=0&k=20&c=y0ys5O_TG0xYevC_-7j0jrwowzBriA8nUf5H68N69DY=);
+background-image: url(https://source.unsplash.com/900x350/?cats);
  background-position: center;
   background-size: cover;
    min-height: calc(164px);
@@ -43,8 +47,9 @@ background-image: url(https://media.istockphoto.com/id/1263678507/photo/white-pe
     padding: 50px;
     text-align: center;
     background-color: #fff;
-    background-image: url(https://welovedoodles.com/wp-content/uploads/2021/12/Golden-Retriever-300x169.jpeg);
+    background-image: url(https://source.unsplash.com/900x450/?dogs);
   background-size: cover;
+  -webkit-text-stroke: 0.2px white;
    min-height: calc(164px);
     }
     
